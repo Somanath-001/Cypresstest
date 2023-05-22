@@ -13,7 +13,7 @@ describe("framework test suite", function () {
     const productPage = new ProductPage();
 
     cy.visit(Cypress.env("url") + "/angularpractice/");
-
+   /// test data
     // cy.get(':nth-child(1) > .form-control').type("Somanath")
     cy.wait(2000);
     // cy.get('select').select("Female")
