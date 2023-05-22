@@ -11,6 +11,7 @@ describe('practice test suite', () => {
         //cy.get('[value = "confirm"]').click()
 
         // POPup Massages
+        	// Added one comment for git practice
 
         cy.on('window:alert', (str) => {
             expect(str).to.equal('Hello , share this practice page and share your knowledge')

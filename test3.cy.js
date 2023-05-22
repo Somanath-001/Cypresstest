@@ -10,7 +10,7 @@ describe('Practice of Check box and radio buttons', () => {
         cy.wait(2000)
         cy.get('#checkBoxOption2').uncheck().should('not.be.checked')
 
-
+	// first comment on this file
         //Static Dropdown
         cy.get('#dropdown-class-example').select('Option1').should('have.value', 'option1')
 

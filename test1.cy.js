@@ -6,8 +6,10 @@ describe('Cypress learning', () => {
         cy.get('.product:visible').should('have.length', 4)
 
         // parent and child chaining
+        // Adding one comment
+        // Adding second command
 
-        cy.get('.products').find('.product').eq(1).contains('ADD TO CART').click()
+        cy.get('.pro`ducts').find('.product').eq(1).contains('ADD TO CART').click()
 
         cy.wait(2000)
         cy.get('.products').find('.product').each(($el, index, list) => {
